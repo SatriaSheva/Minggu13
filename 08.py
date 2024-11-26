@@ -13,7 +13,6 @@ image_path = "08.png"  # Ganti dengan path ke file gambar Anda
 st.sidebar.title("Select Page")
 page = st.sidebar.selectbox("Menu", ["Home"])
 
-# Membaca dataset
 df = pd.read_csv(dataset_path)
 
 # Halaman Home
